@@ -9,5 +9,6 @@
         "editor.defaultFormatter": "charliermarsh.ruff"
     },
     "python.analysis.typeCheckingMode": "basic",
-    "python.terminal.executeInFileDir": true
+    "python.terminal.executeInFileDir": true,
+    "cSpell.language": "en,pt,pt_BR"
 }
