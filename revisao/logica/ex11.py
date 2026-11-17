@@ -4,8 +4,8 @@ valor = num
 soma_digitos = 0
 
 while True:
-    soma_digitos += valor // 10
-    valor %= 10
+    soma_digitos += valor % 10
+    valor //= 10
 
     if valor // 10 == 0:
         soma_digitos += valor

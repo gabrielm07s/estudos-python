@@ -14,11 +14,11 @@ notas = {
 
 moedas = {
     "100": 100,
-    "75": 75,
     "50": 50,
     "25": 25,
     "10": 10,
-    "5": 5
+    "5": 5,
+    "1": 1
 }
 
 print(f'VALOR: {valor:.2f}')
@@ -30,7 +30,7 @@ for nome, cedula in notas.items():
     valor %= cedula
 
 print('\nMOEDAS:')
-valor *= 100
+valor = round(valor * 100)
 for nome, moeda in moedas.items():
     qtd = int(valor // moeda)
     print(f'Moedas de {nome}: {qtd}')

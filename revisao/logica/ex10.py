@@ -5,7 +5,7 @@ multiplo_de7 = False
 while num != 0:
     num = int(input('Digite um número: '))
 
-    if num % 7 == 0:
+    if num % 7 == 0 and num != 0:
         multiplo_de7 = True
 
 if multiplo_de7:
