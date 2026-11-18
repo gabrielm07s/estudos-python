@@ -6,5 +6,5 @@ preco_litro = float(input('Preço litro (R$): '))
 litros_gastos = distancia / consumo
 custo_viagem = preco_litro * litros_gastos
 
-print(f'Litros gastos: {round(litros_gastos)} L')
+print(f'Litros gastos: {litros_gastos:.2f} L')
 print(f'Custo da viagem: R$ {custo_viagem:.2f}')
