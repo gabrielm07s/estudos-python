@@ -19,9 +19,9 @@ quando existe conteúdo, então a sequência pode ter "buracos" (por exemplo, n�
 
 | Módulo | Bloco | Exercícios | Revisão |
 |---|---|---|---|
-| 01 Lógica e Algoritmos | A | | concluída (18/18) |
-| 02 Ambiente | A | | pendente |
-| 03 Fundamentos | A | `03_fundamentos` (19) | pendente |
+| 01 Lógica e Algoritmos | A | | [concluída (18/18)](revisao/01_logica/README.md) |
+| 02 Estrutura Sequencial (com o ambiente) | A | | [exercícios concluídos (68)](revisao/02_estrutura_sequencial/README.md) |
+| 03 Fundamentos (variáveis e tipos) | A | `03_fundamentos` (19) | próxima |
 | 04 Controle de Fluxo | A | `04_controle_de_fluxo` (condicionais 18, repetição 21) | pendente |
 | 05 Coleções | B | `05_colecoes` (listas 22, tuplas 25, dicionários 25, conjuntos 30) | pendente |
 | 06 Comprehensions | B | a criar | pendente |
@@ -35,6 +35,8 @@ quando existe conteúdo, então a sequência pode ter "buracos" (por exemplo, n�
 - **Commits em português**, no padrão `tipo(escopo): descrição`, por exemplo
   `feat(secao02/aula10): funções: def` ou `feat(exercicios): exercícios sobre funções`.
   Tipos usados: `feat`, `fix`, `refactor`, `chore`, `docs`.
+- **Documentação:** cada módulo de `revisao/` tem um `README.md` com objetivos, exercícios, armadilhas e
+  critério para avançar (espelho das notas no Obsidian).
 - **Ruff** formata ao salvar (limite de 79 colunas, veja `.vscode/settings.json`).
 
 ## Como rodar
