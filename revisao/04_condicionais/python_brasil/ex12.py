@@ -17,3 +17,5 @@ dia = int(input("Digite um dia da semana: "))
 
 if dia in dias_semana:
     print(dias_semana[dia])
+else:
+    print("Valor inválido")

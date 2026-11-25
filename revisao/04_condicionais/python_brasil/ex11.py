@@ -43,7 +43,5 @@ print(f"Salário Bruto: R$ {salario_bruto:.2f}")
 print(f"- IR: R$ {valor_IR:.2f}")
 print(f"- INSS: R$ {valor_INSS:.2f}")
 print(f"- FGTS: R$ {valor_FGTS:.2f}")
-print(f"Total de descontos: R$ {sum((valor_FGTS, valor_IR, valor_INSS)):.2f}")
-print(
-    f"Salário Líquido: R$ {(salario_bruto - sum((valor_FGTS, valor_IR, valor_INSS))):.2f}"
-)
+print(f"Total de descontos: R$ {sum((valor_IR, valor_INSS)):.2f}")
+print(f"Salário Líquido: R$ {(salario_bruto - sum((valor_IR, valor_INSS))):.2f}")

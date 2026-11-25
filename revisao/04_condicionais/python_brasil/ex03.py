@@ -6,7 +6,7 @@ M - Masculino
 Sexo Inválido.
 """
 
-sexo = input("Digite o sexo: (F/M) ").strip().lower()
+sexo = input("Digite o sexo: (F/M) ").strip()
 sexos = ["F", "M"]
 
 if sexo in sexos:

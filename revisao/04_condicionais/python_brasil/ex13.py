@@ -16,14 +16,15 @@ for A, B ou C ou “REPROVADO” se o conceito for D ou E.
 n1, n2 = map(float, input().split())
 
 media = (n1 + n2) / 2.0
+print(f"Média: {media:.2f}")
 
-if 9.0 <= media < 10.0:
+if 9.0 <= media <= 10.0:
     print("Aprovado")
     print("Conceito A")
-elif media < 9.0:
+elif 7.5 <= media < 9.0:
     print("Aprovado")
     print("Conceito B")
-elif media < 7.5:
+elif 6.0 <= media < 7.5:
     print("Aprovado")
     print("Conceito C")
 elif 4.0 < media < 6.0:
