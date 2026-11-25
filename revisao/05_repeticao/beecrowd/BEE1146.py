@@ -1,5 +1,5 @@
 """
-beecrowd 1146 - Sequência Crescente
+beecrowd 1146 - Sequências Crescentes
 https://www.beecrowd.com.br/judge/pt/problems/view/1146
 """
 

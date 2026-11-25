@@ -1,5 +1,5 @@
 """
-beecrowd 1145 - Sequência Lógica
+beecrowd 1145 - Sequência Lógica 2
 https://www.beecrowd.com.br/judge/pt/problems/view/1145
 """
 

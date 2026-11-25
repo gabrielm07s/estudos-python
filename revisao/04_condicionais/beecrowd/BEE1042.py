@@ -1,5 +1,5 @@
 """
-beecrowd 1042 - Simple Sort
+beecrowd 1042 - Sort Simples
 https://www.beecrowd.com.br/judge/pt/problems/view/1042
 """
 

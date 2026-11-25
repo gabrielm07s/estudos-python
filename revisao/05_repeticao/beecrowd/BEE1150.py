@@ -1,5 +1,5 @@
 """
-beecrowd 1150 - Ultrapassando
+beecrowd 1150 - Ultrapassando Z
 https://www.beecrowd.com.br/judge/pt/problems/view/1150
 """
 

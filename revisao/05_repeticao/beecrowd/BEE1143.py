@@ -1,5 +1,5 @@
 """
-beecrowd 1143 - Quadrado e Cubo
+beecrowd 1143 - Quadrado e ao Cubo
 https://www.beecrowd.com.br/judge/pt/problems/view/1143
 """
 

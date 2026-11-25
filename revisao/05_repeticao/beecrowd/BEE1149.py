@@ -1,5 +1,5 @@
 """
-beecrowd 1149 - Soma de Inteiros Consecutivos
+beecrowd 1149 - Somando Inteiros Consecutivos
 https://www.beecrowd.com.br/judge/pt/problems/view/1149
 """
 

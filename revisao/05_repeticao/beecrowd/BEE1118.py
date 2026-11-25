@@ -1,5 +1,5 @@
 """
-beecrowd 1118 - Várias Notas Incorretas
+beecrowd 1118 - Várias Notas Com Validação
 https://www.beecrowd.com.br/judge/pt/problems/view/1118
 """
 
