@@ -23,7 +23,7 @@ quando existe conteúdo, então a sequência pode ter "buracos" (por exemplo, n�
 | 01 Lógica e Algoritmos | A | | [concluída (18/18)](docs/revisao/01_logica.md) |
 | 02 Estrutura Sequencial (com o ambiente) | A | | [exercícios concluídos (68)](docs/revisao/02_estrutura_sequencial.md) |
 | 03 Variáveis e Tipos de Dados | A | `03_fundamentos` (19) | [concluída (fixação 8)](docs/revisao/03_variaveis_tipos_de_dados.md) |
-| 04 Controle de Fluxo | A | `04_controle_de_fluxo` (condicionais 18, repetição 21) | próxima |
+| 04 Controle de Fluxo | A | `04_controle_de_fluxo` (condicionais 18, repetição 21) | [exercícios concluídos](docs/revisao/04_controle_de_fluxo.md) |
 | 05 Coleções | B | `05_colecoes` (listas 22, tuplas 25, dicionários 25, conjuntos 30) | pendente |
 | 06 Comprehensions | B | a criar | pendente |
 | 07 Funções | B | `07_funcoes` (19) | pendente |
