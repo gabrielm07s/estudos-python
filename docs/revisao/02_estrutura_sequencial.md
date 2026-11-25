@@ -1,7 +1,7 @@
 # 02 Estrutura Sequencial (com o ambiente)
 
 **Status:** exercícios concluídos em 18/11/2026. Faltam o aprofundamento teórico e a seção do bootcamp.
-**Bloco:** A · **Anterior:** [01 Lógica](../01_logica/README.md)
+**Bloco:** A · **Anterior:** [01 Lógica](01_logica.md)
 
 ## Objetivos
 - Preparar o ambiente: venv, VS Code, Ruff, REPL, `help()` e `dir()`.
@@ -28,10 +28,10 @@
 ## Exercícios
 | Pasta | Quantidade | Conteúdo |
 |---|---|---|
-| [fixacao](fixacao/) | 17 | fixação do PDF: desconto, formatação, área, IMC, h:m:s, troco, juros, viagem |
-| [lista](lista/) | 12 | soma, salário, média ponderada, distância, cédulas e moedas, BRL, `divmod` |
-| [beecrowd](beecrowd/) | 21 | 1000 a 1021, sem o 1013 (pede decisão) |
-| [python_brasil](python_brasil/) | 18 | Lista Python Brasil, Estrutura Sequencial completa |
+| [fixacao](../../revisao/02_estrutura_sequencial/fixacao/) | 17 | fixação do PDF: desconto, formatação, área, IMC, h:m:s, troco, juros, viagem |
+| [lista](../../revisao/02_estrutura_sequencial/lista/) | 12 | soma, salário, média ponderada, distância, cédulas e moedas, BRL, `divmod` |
+| [beecrowd](../../revisao/02_estrutura_sequencial/beecrowd/) | 21 | 1000 a 1021, sem o 1013 (pede decisão) |
+| [python_brasil](../../revisao/02_estrutura_sequencial/python_brasil/) | 18 | Lista Python Brasil, Estrutura Sequencial completa |
 
 ## Armadilhas (erros que corrigi)
 - **Python Brasil ex09:** mensagem do `input` dizia °C; o exercício pede °F.

@@ -11,6 +11,7 @@ cursos/        aulas acompanhadas, na ordem de cada curso
   geek_university/   curso da Geek University, uma pasta por assunto
 exercicios/    listas de exercícios por tema, numeradas pelo módulo
 revisao/       2ª passada por módulo, com o material em PDF e simulados
+docs/          documentação por módulo (páginas de revisão em docs/revisao/)
 projetos/      mini-projetos (v1 e v2)
 ```
 
@@ -19,9 +20,9 @@ quando existe conteúdo, então a sequência pode ter "buracos" (por exemplo, n�
 
 | Módulo | Bloco | Exercícios | Revisão |
 |---|---|---|---|
-| 01 Lógica e Algoritmos | A | | [concluída (18/18)](revisao/01_logica/README.md) |
-| 02 Estrutura Sequencial (com o ambiente) | A | | [exercícios concluídos (68)](revisao/02_estrutura_sequencial/README.md) |
-| 03 Variáveis e Tipos de Dados | A | `03_fundamentos` (19) | [concluída (fixação 8)](revisao/03_variaveis_tipos_de_dados/README.md) |
+| 01 Lógica e Algoritmos | A | | [concluída (18/18)](docs/revisao/01_logica.md) |
+| 02 Estrutura Sequencial (com o ambiente) | A | | [exercícios concluídos (68)](docs/revisao/02_estrutura_sequencial.md) |
+| 03 Variáveis e Tipos de Dados | A | `03_fundamentos` (19) | [concluída (fixação 8)](docs/revisao/03_variaveis_tipos_de_dados.md) |
 | 04 Controle de Fluxo | A | `04_controle_de_fluxo` (condicionais 18, repetição 21) | próxima |
 | 05 Coleções | B | `05_colecoes` (listas 22, tuplas 25, dicionários 25, conjuntos 30) | pendente |
 | 06 Comprehensions | B | a criar | pendente |
@@ -35,8 +36,8 @@ quando existe conteúdo, então a sequência pode ter "buracos" (por exemplo, n�
 - **Commits em português**, no padrão `tipo(escopo): descrição`, por exemplo
   `feat(secao02/aula10): funções: def` ou `feat(exercicios): exercícios sobre funções`.
   Tipos usados: `feat`, `fix`, `refactor`, `chore`, `docs`.
-- **Documentação:** cada módulo de `revisao/` tem um `README.md` com objetivos, exercícios, armadilhas e
-  critério para avançar (espelho das notas no Obsidian).
+- **Documentação:** cada módulo de `revisao/` tem uma página em `docs/revisao/` com objetivos, exercícios, armadilhas e
+  critério para avançar (espelho das notas no Obsidian). Índice em [`docs/README.md`](docs/README.md).
 - **Ruff** formata ao salvar (limite de 79 colunas, veja `.vscode/settings.json`).
 
 ## Como rodar

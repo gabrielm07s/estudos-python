@@ -1,7 +1,7 @@
 # 03 Variáveis e Tipos de Dados
 
 **Status:** concluído em 19/11/2026 (fixação, 8 exercícios).
-**Bloco:** A · **Anterior:** [02 Estrutura Sequencial](../02_estrutura_sequencial/README.md) · **Próximo:** 04 Controle de Fluxo
+**Bloco:** A · **Anterior:** [02 Estrutura Sequencial](02_estrutura_sequencial.md) · **Próximo:** 04 Controle de Fluxo
 
 ## Objetivos
 - Explicar variável como nome que aponta para um objeto.
@@ -30,14 +30,14 @@
 ## Exercícios
 | Arquivo | Assunto |
 |---|---|
-| [ex01](fixacao/ex01_bases_numericas.py) | `bin`, `oct` e `hex` de um inteiro |
-| [ex02](fixacao/ex02_ler_float_virgula.py) | ler número com vírgula e converter para `float` |
-| [ex03](fixacao/ex03_nome_formatado.py) | nome com iniciais maiúsculas (`title`) |
-| [ex04](fixacao/ex04_contar_letra_a.py) | contar a letra "a" com `for` e contador |
-| [ex05](fixacao/ex05_frase_underline_invertida.py) | espaços por `_` e frase invertida (`replace` e `[::-1]`) |
-| [ex06](fixacao/ex06_validar_idade.py) | validar idade com `isdigit` |
-| [ex07](fixacao/ex07_juros_compostos.py) | juros compostos com constante |
-| [ex08](fixacao/ex08_limpar_e_validar_cpf.py) | limpar pontuação do CPF e validar tamanho e dígitos |
+| [ex01](../../revisao/03_variaveis_tipos_de_dados/fixacao/ex01_bases_numericas.py) | `bin`, `oct` e `hex` de um inteiro |
+| [ex02](../../revisao/03_variaveis_tipos_de_dados/fixacao/ex02_ler_float_virgula.py) | ler número com vírgula e converter para `float` |
+| [ex03](../../revisao/03_variaveis_tipos_de_dados/fixacao/ex03_nome_formatado.py) | nome com iniciais maiúsculas (`title`) |
+| [ex04](../../revisao/03_variaveis_tipos_de_dados/fixacao/ex04_contar_letra_a.py) | contar a letra "a" com `for` e contador |
+| [ex05](../../revisao/03_variaveis_tipos_de_dados/fixacao/ex05_frase_underline_invertida.py) | espaços por `_` e frase invertida (`replace` e `[::-1]`) |
+| [ex06](../../revisao/03_variaveis_tipos_de_dados/fixacao/ex06_validar_idade.py) | validar idade com `isdigit` |
+| [ex07](../../revisao/03_variaveis_tipos_de_dados/fixacao/ex07_juros_compostos.py) | juros compostos com constante |
+| [ex08](../../revisao/03_variaveis_tipos_de_dados/fixacao/ex08_limpar_e_validar_cpf.py) | limpar pontuação do CPF e validar tamanho e dígitos |
 
 ## Armadilhas (da correção)
 - `"²".isdigit()` é `True`, mas `int("²")` dá `ValueError`. Para validar entrada que vira número, `isdecimal()` é mais seguro. Vale para o `ex06` e o `ex08`.
